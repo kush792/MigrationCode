@@ -4,9 +4,11 @@ public class AddUser {
 	String name;
 	int number;
 	String userCompName;
+	String userEmail;
 	
-	void getUser(String name, int number, String userCompName){
-		System.out.println("User Name : "+name+" User Number : "+number+" User Company : "+userCompName);
+	
+	void getUser(String name, int number, String userCompName, String userEmail){
+		System.out.println("User Name : "+name+" User Number : "+number+" User Company : "+userCompName+" User Email Id : "+userEmail);
 	}
 	
 	String getUserByNumber(int number) {
